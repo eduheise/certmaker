@@ -1,0 +1,278 @@
+{
+  "save_column": "Character Name",
+  "send_mail": false,
+  "mail": {
+    "send_from": "your_email@gmail.com",
+    "subject": "Bad News",
+    "send_to": "Email",
+    "content": "Sadly I've some bad news. {} died as a hero.",
+    "parameters": [
+      "Character Name"
+    ],
+    "server": "smtp.gmail.com",
+    "port": 587,
+    "password": ""
+  },
+  "fields": [
+    {
+      "column": "Character Name",
+      "max_elements": 7,
+      "max_lines": 1,
+      "pad": 55,
+      "coords": [
+        600,
+        215
+      ],
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "font-family": "olde_english.ttf",
+      "font-size": 50,
+      "font-color": "black",
+      "formatter": "{}",
+      "centralized": true
+    },
+    {
+      "column": "Day",
+      "max_elements": 2,
+      "max_lines": 1,
+      "pad": 55,
+      "coords": [
+        285,
+        275
+      ],
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "font-family": "olde_english.ttf",
+      "font-size": 50,
+      "font-color": "black",
+      "formatter": "{}",
+      "centralized": true
+    },
+    {
+      "column": "Month",
+      "max_elements": 2,
+      "max_lines": 1,
+      "pad": 55,
+      "coords": [
+        590,
+        278
+      ],
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "font-family": "olde_english.ttf",
+      "font-size": 50,
+      "font-color": "black",
+      "formatter": "{}",
+      "centralized": true
+    },
+    {
+      "column": "Year",
+      "max_elements": 2,
+      "max_lines": 1,
+      "pad": 55,
+      "coords": [
+        980,
+        275
+      ],
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "font-family": "olde_english.ttf",
+      "font-size": 50,
+      "font-color": "black",
+      "formatter": "{}",
+      "centralized": true
+    },
+    {
+      "column": "Bludgeoned",
+      "pad": 55,
+      "coords": [
+        167,
+        385
+      ],
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "font-family": "olde_english.ttf",
+      "font-size": 50,
+      "font-color": "black",
+      "formatter": "{}",
+      "centralized": true
+    },
+    {
+      "column": "Digested",
+      "pad": 55,
+      "coords": [
+        167,
+        417
+      ],
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "font-family": "olde_english.ttf",
+      "font-size": 50,
+      "font-color": "black",
+      "formatter": "{}",
+      "centralized": true
+    },
+    {
+      "column": "Incinerated",
+      "pad": 55,
+      "coords": [
+        167,
+        450
+      ],
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "font-family": "olde_english.ttf",
+      "font-size": 50,
+      "font-color": "black",
+      "formatter": "{}",
+      "centralized": true
+    },
+    {
+      "column": "Lacerated",
+      "pad": 55,
+      "coords": [
+        167,
+        482
+      ],
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "font-family": "olde_english.ttf",
+      "font-size": 50,
+      "font-color": "black",
+      "formatter": "{}",
+      "centralized": true
+    },
+    {
+      "column": "Punctured",
+      "pad": 55,
+      "coords": [
+        167,
+        515
+      ],
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "font-family": "olde_english.ttf",
+      "font-size": 50,
+      "font-color": "black",
+      "formatter": "{}",
+      "centralized": true
+    },
+    {
+      "column": "Soul-drained",
+      "pad": 55,
+      "coords": [
+        167,
+        547
+      ],
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "font-family": "olde_english.ttf",
+      "font-size": 50,
+      "font-color": "black",
+      "formatter": "{}",
+      "centralized": true
+    },
+    {
+      "column": "Suffocated",
+      "pad": 55,
+      "coords": [
+        167,
+        580
+      ],
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "font-family": "olde_english.ttf",
+      "font-size": 50,
+      "font-color": "black",
+      "formatter": "{}",
+      "centralized": true
+    },
+    {
+      "column": "Description",
+      "pad": 55,
+      "coords": [
+        625,
+        650
+      ],
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "font-family": "olde_english.ttf",
+      "font-size": 50,
+      "font-color": "black",
+      "formatter": "{}",
+      "centralized": true
+    },
+    {
+      "column": "Location",
+      "pad": 55,
+      "coords": [
+        330,
+        745
+      ],
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "font-family": "olde_english.ttf",
+      "font-size": 50,
+      "font-color": "black",
+      "formatter": "{}",
+      "centralized": true
+    },
+    {
+      "column": "Presiding Judge",
+      "pad": 55,
+      "coords": [
+        890,
+        745
+      ],
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "font-family": "olde_english.ttf",
+      "font-size": 50,
+      "font-color": "black",
+      "formatter": "{}",
+      "centralized": true
+    }
+  ]
+}
